@@ -27,3 +27,74 @@ h1 {
 .text-color {
   color: #ffad5a;
 }
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+}
+
+.focused {
+  padding-left: 3%;
+  border-radius: 5px;
+  border-left: 5px solid #487eb0;
+}
+
+.button-link {
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #ff5959;
+}
+
+.misson {
+  display: flex;
+  justify-content: space-between;
+}
+
+.misson-element {
+  width: 33%;
+  height: 450px;
+  margin: 2%;
+  padding: 20px 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.misson-box:hover {
+  box-shadow: 0 0 20px grey;
+}
+
+.my-misson-section h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.misson-box h3 {
+  font-size: 25px;
+}
+
+.misson-box img {
+  width: 40%;
+  height: 50%;
+}
+
+#misson {
+  background: #edf5f6;
+}
+
+#visson {
+  background: #ffeeee;
+}
+
+#goals {
+  background: #fff4d6;
+}
