@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin-left: 2%;
+  margin-right: 2%;
   font-family: "Poppins", sans-serif;
 }
 
@@ -42,9 +43,15 @@ p {
 }
 
 .focused {
-  padding-left: 3%;
+  padding-left: 0;
   border-radius: 5px;
-  border-left: 5px solid #487eb0;
+  border-left: 5px solid dodgerblue;
+  height: ;
+}
+.top-text {
+  line-height: 1;
+  margin-left: 5px;
+  font-family: "Yeseva One", cursive;
 }
 
 .button-link {
@@ -52,7 +59,7 @@ p {
   text-decoration: none;
   border-radius: 5px;
   color: #fff;
-  background-color: #ff5959;
+  background-color: dodgerblue;
 }
 
 .misson {
@@ -63,14 +70,10 @@ p {
 .misson-element {
   width: 33%;
   height: 450px;
-  margin: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
   padding: 20px 10px;
   border-radius: 10px;
-  transition: 1s;
-}
-
-.misson-box:hover {
-  box-shadow: 0 0 20px grey;
 }
 
 .my-misson-section h2 {
@@ -78,13 +81,13 @@ p {
   font-size: 40px;
 }
 
-.misson-box h3 {
+.misson-element h3 {
   font-size: 25px;
 }
 
-.misson-box img {
-  width: 40%;
-  height: 50%;
+.misson-element img {
+  width: 50%;
+  height: 40%;
 }
 
 #misson {
@@ -97,4 +100,10 @@ p {
 
 #goals {
   background: #fff4d6;
+}
+.develop {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 20%;
 }
