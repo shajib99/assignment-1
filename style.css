@@ -6,19 +6,19 @@ body {
 
 .flexible-container {
   display: flex;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 
 .half-width {
   width: 50%;
   padding: 5%;
-  padding-left: 10%;
-  padding-top: 10%;
+  padding-left: 5%;
+  padding-top: 5%;
 }
 
 .half-width img {
   width: 100%;
-  margin-top: -60px;
+  margin-top: 0px;
 }
 
 h1 {
@@ -61,15 +61,22 @@ p {
   color: #fff;
   background-color: dodgerblue;
 }
-
+.flash-header {
+  font-family: "Yeseva One", cursive;
+  text-align: center;
+  font-size: 50px;
+}
 .misson {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 2%;
 }
-
+.my-misson-section {
+  margin-bottom: 50px;
+}
 .misson-element {
-  width: 33%;
-  height: 450px;
+  width: 80%;
+  height: 350px;
   margin-left: 2%;
   margin-right: 2%;
   padding: 20px 10px;
@@ -78,7 +85,7 @@ p {
 
 .my-misson-section h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .misson-element h3 {
@@ -101,9 +108,19 @@ p {
 #goals {
   background: #fff4d6;
 }
-.develop {
+.develop-section {
   background-image: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 20%;
+}
+.global-section {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 15%;
+}
+.online-learning img {
+  border-radius: 20px;
+  width: 90%;
 }
