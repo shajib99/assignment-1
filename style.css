@@ -25,9 +25,11 @@ h1 {
   font-size: 50px;
   font-weight: 700;
 }
+
 .text-color {
   color: #ffad5a;
 }
+
 h2 {
   font-size: 40px;
   font-weight: 700;
@@ -48,7 +50,8 @@ p {
   border-left: 5px solid dodgerblue;
   height: 100px;
 }
-.top-text {
+
+.top-heading {
   line-height: 1;
   margin-left: 5px;
   font-family: "Yeseva One", cursive;
@@ -61,19 +64,23 @@ p {
   color: #fff;
   background-color: dodgerblue;
 }
+
 .flash-header {
   font-family: "Yeseva One", cursive;
   text-align: center;
   font-size: 50px;
 }
+
 .misson {
   display: flex;
   justify-content: space-around;
   margin-left: 2%;
 }
+
 .my-misson-section {
   margin-bottom: 50px;
 }
+
 .misson-element {
   width: 80%;
   height: 350px;
@@ -108,22 +115,26 @@ p {
 #goals {
   background: #fff4d6;
 }
+
 .develop-section {
   background-image: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 20%;
 }
+
 .global-section {
   background-image: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 15%;
 }
+
 .online-learning img {
   border-radius: 20px;
   width: 90%;
 }
+
 footer {
   background-color: black;
   color: white;
@@ -131,9 +142,11 @@ footer {
   width: 100%;
   text-align: center;
 }
+
 .footer-text {
   font-family: "Lobster", cursive;
 }
-.red-color {
+
+.color-text {
   color: red;
 }
