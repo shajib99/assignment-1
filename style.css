@@ -124,3 +124,16 @@ p {
   border-radius: 20px;
   width: 90%;
 }
+footer {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  width: 100%;
+  text-align: center;
+}
+.footer-text {
+  font-family: "Lobster", cursive;
+}
+.red-color {
+  color: red;
+}
